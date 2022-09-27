@@ -1,0 +1,11 @@
+set INVESTMENT:= BONDS HOME_MORTGAGES CAR_LOANS PERSONAL_LOANS;
+
+param yield:=
+	BONDS				0.1
+	HOME_MORTGAGES		0.085
+	CAR_LOANS			0.095
+	PERSONAL_LOANS		0.125;
+	
+param initial:=6500000;
+param risk_control_rate:=0.25;
+

@@ -1,0 +1,29 @@
+set STAFF:= attendant trainee;
+
+param T:=6;
+param working_time:=
+attendant		150
+trainee			25;
+
+param max_trainee:=5;
+
+param required_hours:=
+1		8000
+2		9000
+3		9800
+4		9900
+5		10050
+6		10500;
+
+param wage:=
+attendant		5100
+trainee			3600;
+param resign:=
+1		2
+2		0
+3		2
+4		0
+5		1
+6		0;
+
+param initial_crew_of_attendent:=62;
